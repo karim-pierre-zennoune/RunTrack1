@@ -1,0 +1,50 @@
+<style>
+  body {
+    background-color: #d9ead3ff;
+    font-family: Arial, sans-serif;
+  }
+  .name {
+    text-align: center;
+    font-size: 40px;
+  }
+  .interests {
+    font-size: 20px;
+    list-style-type: square;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+  }
+  .heart {
+    list-style-type: none;
+    --c: red;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    aspect-ratio: 1;
+    background: radial-gradient(at 70% 31%, var(--c) 29%, #0000 30%),
+      radial-gradient(at 30% 31%, var(--c) 29%, #0000 30%),
+      conic-gradient(from -45deg at 50% 84%, var(--c) 90deg, #0000 0)
+        bottom/100% 50% no-repeat;
+  }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Johan Chevet</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="name">Johan Chevet</h1>
+      <ul class="interests">
+        <li class="heart"></li>
+        <li>Esport</li>
+        <li>Manga</li>
+        <li>Backend</li>
+      </ul>
+    </main>
+  </body>
+</html>
