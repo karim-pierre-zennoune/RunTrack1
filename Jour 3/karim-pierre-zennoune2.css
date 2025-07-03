@@ -1,0 +1,49 @@
+img {
+  border-radius: 50%;
+  border-color: blue;
+  border-style: solid;
+}
+
+a {
+  background-color: brown;
+}
+
+.textbox {
+  border-radius: 20%;
+  border-color: black;
+  background-color: blanchedalmond;
+  border-style: solid;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 80vw;
+  }
+
+  .nameplate {
+    text-align: center;
+  }
+
+  .textbox {
+    width: 400px;
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  img {
+    float: left;
+    max-width: 30vw;
+  }
+
+  .jojotest {
+    display: flex;
+    align-items: center;
+  }
+
+  .textbox {
+    width: 30vw;
+    float: left;
+  }
+}

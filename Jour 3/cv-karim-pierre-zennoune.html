@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Karim Pierre ZENNOUNE CV</title>
+    <style>
+      .profile {
+        display: flex;
+        align-items: center;
+      }
+
+      .icons {
+        max-width: 8vw;
+      }
+
+      span {
+        background-color: blueviolet;
+      }
+
+      .profilepic {
+        float: left;
+        border-color: black;
+        border-style: solid;
+        border-radius: 100%;
+      }
+
+      .infocard {
+        margin-left: 20px;
+      }
+
+      @media screen and (min-width: 600px) {
+        .profilepic {
+          max-width: 20vw;
+          border-width: 10px;
+        }
+
+        li p {
+          margin-top: -20px;
+          margin-bottom: -5px;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .profilepic {
+          max-width: 25vw;
+          border-width: 6px;
+        }
+
+        li p {
+          margin-top: -18px;
+          margin-bottom: -3px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="profile">
+        <img
+          class="profilepic"
+          src="https://cdn.intra.42.fr/users/a497debece7af7f5fd325bcfe2226aa3/kzennoun.jpg"
+          alt="A picture of Karim ZENNOUNE"
+        />
+
+        <div class="infocard">
+          Karim Pierre ZENNOUNE <br />
+          <a href="tel:+33682973006">06 82 97 30 06</a> <br />
+          <a href="mailto:zennoune.karim@outlook.fr"
+            >zennoune.karim@outlook.fr</a
+          >
+          <br />
+          <a href="https://github.com/Gersho"
+            ><img
+              class="icons"
+              src="img/icons8-github-30.png"
+              alt="github's logo"
+          /></a>
+        </div>
+      </div>
+
+      <h3>Projets informatiques</h3>
+      <ul>
+        <li>
+          <h4>Karaoké automatisé (Flask, Python)</h4>
+          <p>
+            Gestion automatisée de karaoké via le réseau local, l’utilisateur
+            cherche une chanson via l’API youtube qui est ensuite diffusée
+            automatiquement en fonction de l’ordre des requêtes.
+            L’administrateur peut modifier l’ordre des requêtes ou les
+            supprimer.
+          </p>
+        </li>
+        <li>
+          <h4>Pong en ligne(NestJS, Typescript)</h4>
+          <p>
+            Jeux multijoueur (Pong) en ligne en typescript avec gestion des
+            délais réseau https://transcendance.site
+          </p>
+        </li>
+        <li>
+          <h4>Machine de Turing (Rust, programmation fonctionnelle)</h4>
+          <p>Reproduction d’une machine de turing en Rust</p>
+        </li>
+        <li>
+          <h4>Barre d’accents pour Linux (X11, C++)</h4>
+          <p>Reproduction de la barre d'accents MacOS sur linux</p>
+        </li>
+      </ul>
+
+      <h3>Formations</h3>
+      <ul>
+        <li>
+          <h4>Concepteur Développeur de Solutions Informatiques</h4>
+          <p>2020-2023 42 Lyon Auvergne Rhône Alpes</p>
+        </li>
+        <li>
+          <h4>Auto-apprentissage C HTML CSS JS</h4>
+          <p>2017-2018 www.edx.org www.freecodecamp.org</p>
+        </li>
+        <li>
+          <h4>Technicien Supérieur de Support en Informatique</h4>
+          <p>2014 FORE Baie Mahault, Guadeloupe</p>
+        </li>
+      </ul>
+
+      <h3>Expériences Professionnelles</h3>
+      <ul>
+        <li>
+          <h4>Stage administration systeme et gestion de parc</h4>
+          <p>2015 (1 mois)</p>
+        </li>
+        <li>
+          <h4>Gérant de débit de boisson DJ-Karaoke Barman</h4>
+          <p>2012-2018</p>
+        </li>
+        <li>
+          <h4>Machine de Turing (Rust, programmation fonctionnelle)</h4>
+          <p>Reproduction d’une machine de turing en Rust</p>
+        </li>
+        <li>
+          <h4>Vente au détail accueil clientèle en temps partiel</h4>
+          <p>2006-2012</p>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
