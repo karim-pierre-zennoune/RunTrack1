@@ -1,34 +1,74 @@
-/* <!-- le bleu de laplateforme 0062ff -->  */
-
-/* header {
-  background-color: tomato;
-  display: flex;
-  flex-direction: row;
-} */
-details {
-  display: flex;
-  flex-direction: column;
+body {
+  margin: 0;
 }
 
-header img {
-  background-color: blueviolet;
-  /* float: left; */
-  /* display: flex;
-  flex-direction: row; */
-  /* flex-wrap: wrap; */
+header {
+  background-color: white;
+}
+
+.accueil {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0062ff;
+  justify-content: center;
+}
+
+.accueil-text {
+  margin: auto;
+}
+
+/* .accueil-image {
+  margin: auto;
+} */
+
+.contactbox {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  text-decoration: none;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: chartreuse;
 }
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-} */
+
+nav a {
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-content {
+  color: #ffffff;
+}
+
+footer div p a {
+  /* list-style-type: none; */
+  text-decoration: none;
+}
+
+footer div a {
+  color: white;
+}
+
+.footer-image-container {
+  margin: auto;
+}
 
 #JPOimage {
   max-width: 35vw;
@@ -39,6 +79,31 @@ nav {
     max-width: 80vw;
     /* float: left; */
   }
+
+  .footer-image {
+    width: 85vw;
+  }
+
+  #JPOimage {
+    max-width: 75vw;
+  }
+
+  nav a {
+    font-size: 6vw;
+  }
+
+  .footer-content {
+    width: 45vw;
+  }
+
+  .accueil-text {
+    width: 80vw;
+  }
+
+  .accueil-image {
+    width: 80vw;
+    /* justify-content: center; */
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -47,7 +112,41 @@ nav {
     float: left;
   }
 
-  nav {
-    /* display: inline; */
+  .footer-image {
+    width: 25vw;
+  }
+
+  #JPOimage {
+    max-width: 35vw;
+  }
+
+  nav a {
+    text-align: center;
+    font-size: 2vw;
+    height: 100%;
+  }
+
+  .wrap-top-banner {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  footer div {
+    width: 32vw;
+  }
+
+  /* section div {
+    font-size: 4vw;
+  } */
+
+  .accueil-text {
+    font-size: 2vw;
+    width: 40vw;
+    /* margin: auto; */
+  }
+
+  .accueil-image {
+    width: 50vw;
   }
 }

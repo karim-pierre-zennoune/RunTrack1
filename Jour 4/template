@@ -23,32 +23,6 @@
       </nav>
     </div>
 
-    <section class="accueil">
-      <div class="accueil-text">
-        <h2>La grande école du numérique pour tous !</h2>
-        <p>
-          Des parcours de formations d’excellence en informatique aux frais de
-          scolarité accessibles, ouverts à tous les talents, sans conditions de
-          ressources et de diplômes. Un lieu de rencontre entre entreprises et
-          apprenants pour le bénéfice de tous ! Le digital c’est maintenant !
-        </p>
-      </div>
-      <div>
-        <img class="accueil-image" src="./img/HP_visual_light.jpg" />
-      </div>
-    </section>
-    <article></article>
-
-    <!-- 
-head
-nav
-section
-article
-aside
-footer    
-
--->
-
     <!-- Modal JPO -->
     <!-- <dialog id="modal">
       <a href="www.google.com">
@@ -63,14 +37,6 @@ footer
       <div class="footer-image-container">
         <img class="footer-image" src="./img/Fichier-1.svg" />
       </div>
-      <!-- <div class="footer-content">
-        <h4>Les Formations</h4>
-        <ul>
-          <li><a href="./coding-school.html">Coding</a></li>
-          <li><a href="./ai-school.html">AI</a></li>
-          <li><a href="./cyber-security-school.html">Cyber Security</a></li>
-        </ul>
-      </div> -->
 
       <div class="footer-content">
         <h4>Les Formations</h4>
