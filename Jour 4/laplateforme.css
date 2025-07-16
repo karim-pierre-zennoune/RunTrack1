@@ -209,6 +209,18 @@ footer div a {
     /* float: left; */
   }
 
+  .single_text_middle {
+    font-size: 4vw;
+  }
+
+  footer {
+    /* padding-left: 15px; */
+  }
+
+  .video_text {
+    text-align: center;
+  }
+
   .footer-image {
     width: 85vw;
   }
@@ -221,8 +233,17 @@ footer div a {
     font-size: 6vw;
   }
 
+  .image_medium {
+    width: 70vw;
+    object-fit: contain;
+    border-radius: 25%;
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+  }
+
   .footer-content {
     width: 45vw;
+    padding-left: 15px;
   }
 
   .accueil-text {
@@ -258,27 +279,20 @@ footer div a {
   }
 
   .dual_text_section {
-    /* background-color: #0062ff; */
     background-color: #0062ff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* float: */
-    /* margin: auto; */
-    /* text-align: center; */
   }
 
   .side_by_side_text {
-    /* min-width: 45vw; */
-    /* flex-direction: column; */
     width: 70vw;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
-    /* text-align: justify; */
     text-align: center;
 
     background-color: white;
@@ -295,28 +309,34 @@ footer div a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: chocolate;
+    /* background-color: chocolate; */
   }
 
   .certification {
     /* width: 40vw; */
     width: 85vw;
     display: flex;
+
     flex-direction: row;
     /* align-items: center; */
     justify-content: center;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+
+    border: 10px solid #1c366d;
+    background-color: #1c366d;
+    border-radius: 15%;
+    color: white;
   }
 
   .certification_image {
     width: 40vw;
     object-fit: contain;
 
-    /* float: right; */
+    /* float: none; */
   }
 
   .certification_text {
-    background-color: aqua;
+    /* background-color: aqua; */
     /* float: left; */
     /* width: 20vw; */
     /* text-align: justify; */
@@ -327,6 +347,23 @@ footer div a {
     margin: auto;
     /* justify-content: center; */
     /* align-items: center; */
+  }
+
+  .certification_container_vert {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .video {
+    width: 80vw;
+  }
+
+  .certification_vert {
+    /* margin: auto; */
+    /* justify-content: center; */
+    padding-bottom: 15px;
+    text-align: center;
   }
 
   .iconbar_element {
