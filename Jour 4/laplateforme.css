@@ -4,6 +4,54 @@ body {
   /* background-color: #f6f6f6; */
 }
 
+#modal {
+  text-align: center;
+}
+
+.pillow {
+  height: 4vw;
+}
+
+.bottom_separator {
+  border-bottom: 5px solid #1c366d;
+}
+
+.red_background {
+  background-color: #d22261 !important;
+}
+
+.grey_background {
+  background-color: white;
+}
+
+/* .blue_background{
+
+  background-color: #0062ff;
+} */
+
+h1 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.blue_text {
+  color: #0062ff;
+  display: inline;
+}
+
+.black_text {
+  color: #000000;
+  display: inline;
+}
+
+.single_text_middle {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2vw;
+  width: 60vw;
+}
+
 #coding-school_bg {
   background-image: url("./img/montage-developer-web.webp");
   height: 640px;
@@ -18,28 +66,14 @@ body {
   font-size: 25px;
   padding-left: 10vw;
 }
+/* 
+h1 {
+  text-align: center;
+} */
 
 h2 {
   text-align: center;
 }
-
-section {
-  background-color: #f6f6f6;
-}
-
-/* .dual_text_section {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .dual_text_section {
-  background-color: darkcyan;
-}
-
-.side_by_side_text {
-  min-width: 45vw;
-  background-color: chartreuse;
-} */
 
 form {
   /* background-color: #0062ff; */
@@ -50,12 +84,7 @@ form {
 header {
   background-color: white;
 }
-/* .p_text_low_padding {
-  margin-top: -15px;
-  margin-bottom: -5px;
-  font-size: ;
-  background-color: brown;
-} */
+
 .accueil {
   display: flex;
   flex-direction: row;
@@ -67,10 +96,6 @@ header {
 .accueil-text {
   margin: auto;
 }
-
-/* .accueil-image {
-  margin: auto;
-} */
 
 .contactbox {
   border-width: 2px;
@@ -141,10 +166,6 @@ footer div a {
 .iconbar_element {
   min-width: 18vw;
   max-width: 50vw;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* color: darkmagenta; */
-  /* background-color: yellow; */
 }
 
 .iconbar_image {
@@ -163,6 +184,23 @@ footer div a {
   margin: auto;
   padding-top: 20px;
   padding-bottom: 15px;
+}
+
+.button {
+  background-color: #0062ff;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  /* padding-top: 20px; */
+  border-radius: 15%;
+  /* margin-top: 100px; */
+}
+
+.button:hover {
+  background-color: #1c366d;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -191,9 +229,16 @@ footer div a {
     width: 80vw;
   }
 
+  .centered_image_container {
+    /* justify-content: center; */
+    margin: auto;
+  }
+
   .accueil-image {
     width: 80vw;
+    /* margin: auto; */
     /* justify-content: center; */
+    /* text-align: center; */
   }
 
   form {
@@ -414,6 +459,10 @@ footer div a {
     /* background-color: chartreuse; */
   }
 
+  .video {
+    width: 350px;
+  }
+
   .certification_image {
     /* width: 25vw; */
     width: 200px;
@@ -429,7 +478,7 @@ footer div a {
   .certification_text {
     /* background-color: aqua; */
     /* float: left; */
-    width: 20vw;
+    width: 25vw;
     /* text-align: justify; */
     text-align: center;
     padding-left: 10px;
@@ -451,6 +500,7 @@ footer div a {
 
   .certification_container_vert {
     padding-top: 20px;
+    padding-bottom: 10px;
     /* padding-left: 20px;
     padding-right: 20px; */
     display: flex;
@@ -458,6 +508,9 @@ footer div a {
     /* justify-content: center; */
     justify-content: space-evenly;
     background-color: #f6f6f6;
+    /* border-bottom: 5px solid #1c366d; */
+    /* border-style: solid;
+    border-color: #1c366d; */
   }
 
   .side_title {
@@ -466,5 +519,21 @@ footer div a {
     font-size: 3vw;
     color: white;
     width: 40vw;
+  }
+
+  .image_medium_container {
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+
+    margin: auto;
+  }
+
+  .image_medium {
+    width: 20vw;
+    object-fit: contain;
+    border-radius: 25%;
+    /* vertical-align: middle; */
+    /* justify-content: center; */
   }
 }

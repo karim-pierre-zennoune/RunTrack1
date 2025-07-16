@@ -34,11 +34,11 @@
 
     <!-- Modal JPO -->
     <!-- <dialog id="modal">
-      <a href="www.google.com">
+      <a href="./contact.html">
         <img id="JPOimage" src="./img/JPO-Image-mise-en-avant-wordpress.png" />
       </a>
       <form method="dialog">
-        <button>Close</button>
+        <button class="button">Close</button>
       </form>
     </dialog> -->
 
