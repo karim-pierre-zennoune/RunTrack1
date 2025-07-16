@@ -1,6 +1,30 @@
 body {
   margin: 0;
   /* background-color: black; */
+  /* background-color: #f6f6f6; */
+}
+
+#coding-school_bg {
+  background-image: url("./img/montage-developer-web.webp");
+  height: 640px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.text_coding-school {
+  text-align: left;
+  width: 30%;
+  font-size: 25px;
+  padding-left: 10vw;
+}
+
+h2 {
+  text-align: center;
+}
+
+section {
+  background-color: #f6f6f6;
 }
 
 /* .dual_text_section {
@@ -37,7 +61,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #0062ff;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .accueil-text {
@@ -102,6 +126,43 @@ footer div a {
 
 #JPOimage {
   max-width: 35vw;
+}
+
+.iconbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 100%; */
+  /* background-color: rgb(243, 21, 198); */
+  padding-top: 15px;
+  flex-wrap: wrap;
+}
+
+.iconbar_element {
+  min-width: 18vw;
+  max-width: 50vw;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* color: darkmagenta; */
+  /* background-color: yellow; */
+}
+
+.iconbar_image {
+  float: left;
+}
+
+.iconbar_title {
+  text-align: center;
+  /* text-align: justify; */
+  margin: auto;
+}
+
+.iconbar_text {
+  text-align: center;
+  /* justify-content: center; */
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -172,7 +233,8 @@ footer div a {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
 
     background-color: white;
     border-radius: 10%;
@@ -204,6 +266,7 @@ footer div a {
   .certification_image {
     width: 40vw;
     object-fit: contain;
+
     /* float: right; */
   }
 
@@ -211,13 +274,28 @@ footer div a {
     background-color: aqua;
     /* float: left; */
     /* width: 20vw; */
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    /* background-color: darkorange; */
     margin: auto;
     /* justify-content: center; */
     /* align-items: center; */
   }
+
+  .iconbar_element {
+    min-width: 40vw;
+  }
+
+  .text_coding-school {
+    font-size: 4vw;
+    width: 50vw;
+  }
+
+  /* .side_title {
+    font-size: 3vw;
+  } */
 }
 
 @media screen and (min-width: 600px) {
@@ -305,7 +383,8 @@ footer div a {
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 2vw;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
     background-color: white;
     border-radius: 10%;
     border-style: solid;
@@ -313,6 +392,8 @@ footer div a {
     border-color: #0062ff;
     margin-left: 20px;
     margin-right: 20px;
+    color: #ffffff;
+    background-color: #1c366d;
   }
 
   .certification_container {
@@ -320,7 +401,7 @@ footer div a {
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
-    background-color: chocolate;
+    background-color: rgb(246, 246, 246);
   }
 
   .certification {
@@ -328,25 +409,62 @@ footer div a {
     display: flex;
     flex-direction: row;
     /* align-items: center; */
+    /* margin: auto; */
     justify-content: center;
-    background-color: darkblue;
+    /* background-color: chartreuse; */
   }
 
   .certification_image {
-    width: 20vw;
+    /* width: 25vw; */
+    width: 200px;
     object-fit: contain;
+    /* background-color: #0062ff; */
+    /* float: inline-end; */
+    /* margin: center; */
+    /* margin: auto; */
+    /* aspect-ratio: 4/3; */
     /* float: right; */
   }
 
   .certification_text {
-    background-color: aqua;
+    /* background-color: aqua; */
     /* float: left; */
     width: 20vw;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
+    font-size: 1.5vw;
     /* justify-content: center; */
     /* align-items: center; */
+  }
+
+  .certification_vert {
+    width: 25vw;
+    /* height: 120vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  .certification_container_vert {
+    padding-top: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    background-color: #f6f6f6;
+  }
+
+  .side_title {
+    padding-top: 5vw;
+    /* margin: auto; */
+    font-size: 3vw;
+    color: white;
+    width: 40vw;
   }
 }
