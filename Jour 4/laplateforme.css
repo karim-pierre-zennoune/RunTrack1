@@ -2,6 +2,20 @@ body {
   margin: 0;
 }
 
+iframe {
+  border: none;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+}
+
 #modal {
   text-align: center;
 }
@@ -245,8 +259,9 @@ footer div a {
 
   .p_text_low_padding {
     margin-top: -3vh;
-    margin-bottom: -1vh;
-    font-size: 14px;
+    margin-bottom: -2vh;
+    font-size: 16px;
+    text-align: center;
   }
 
   .dual_text_section {
@@ -333,6 +348,20 @@ footer div a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  textarea {
+    width: 75vw;
+    margin: auto;
+  }
+
+  .form_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    text-align: center;
   }
 }
 

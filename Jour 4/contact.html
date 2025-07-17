@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
   <head>
     <link rel="stylesheet" href="./laplateforme.css" />
     <meta charset="UTF-8" />
@@ -11,7 +11,10 @@
     <div class="wrap-top-banner">
       <header>
         <a href="./accueil.html">
-          <img src="./img/logo-laplateforme-2024.png" />
+          <img
+            src="./img/logo-laplateforme-2024.png"
+            alt="logo la plateforme"
+          />
         </a>
       </header>
 
@@ -29,9 +32,9 @@
       <!-- <form action="/contact_form.php"></form> -->
       <form>
         <div class="form_identity">
-          <input type="radio" id="mme" name="choosen_prefix" value="Mme." />
           <fieldset>
-            <legend>Titre</legend>
+            <legend hidden>Titre</legend>
+            <!-- <input type="radio" id="mme" name="choosen_prefix" value="Mme." /> -->
             <input type="radio" id="mme" name="choosen_prefix" value="Mme." />
             <label for="mme">Mme.</label>
             <input type="radio" id="mr" name="choosen_prefix" value="Mr." />
@@ -83,7 +86,7 @@
         <textarea
           name="message"
           rows="10"
-          cols="30"
+          cols="42"
           placeholder="Message"
         ></textarea>
 
@@ -95,9 +98,9 @@
             value="Yes"
           />
 
-          <label for="information_choice">
-            J'accepte de recevoir des informations de la part de La
-            Plateforme</label
+          <label class="p_text_low_padding" for="information_choice">
+            J'accepte de recevoir des informations <br />
+            de la part de La Plateforme</label
           >
         </div>
         <div class="form_submit">
@@ -108,7 +111,11 @@
 
     <footer>
       <div class="footer-image-container">
-        <img class="footer-image" src="./img/Fichier-1.svg" />
+        <img
+          class="footer-image"
+          src="./img/Fichier-1.svg"
+          alt="logo la plateforme"
+        />
       </div>
 
       <div class="footer-content">
