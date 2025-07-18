@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.pillow_blue {
+  background-color: #1c366d;
+  height: 10vw;
+}
+
 .pillow_h {
   width: 20%;
 }
@@ -427,6 +432,11 @@ footer div a {
 
   form {
     text-align: center;
+  }
+
+  .pillow_blue {
+    background-color: #1c366d;
+    height: 20vw;
   }
 }
 
